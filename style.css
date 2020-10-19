@@ -1,17 +1,23 @@
-p {
-  font-family: ABeeZee, Times, serif;
+html {
+  margin: 16px;
 }
 
-nav {
-  font-family: Open Sans, Times, serif;
+header {
+  margin-bottom: 20px;
 }
 
-ul {
-  list-style-type: none;
+nav ul {
   margin: 0;
   padding: 0;
+  font-family: Open Sans, Times, serif;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(0,0,0);
+  border-radius: 10px;
+  list-style-type: none;
   overflow: hidden;
-  background-color: rgb(24, 161, 43);
+  background-color: rgb(255, 255, 255);
+  position: sticky;
 }
 
 li {
@@ -20,12 +26,21 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: rgb(103, 158, 110);
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+p {
+  font-family: ABeeZee, Times, serif;
+  color: black;
 }
