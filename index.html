@@ -1,31 +1,38 @@
 <!DOCTYPE html>
-<!-- Use <div class="myDiv"></div> to section out something for CSS
-Then in CSS, refer to it as .myDiv -->
 <html>
     <head>
         <link href="style.css" rel="stylesheet">
-        <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
         <title>Isaac Thompson's Website</title>
     </head>
     <header>
-        Isaac Thompson
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="about.html">About</a></li>
-        </ul>
-    </nav>
     <body>
-        <p>
-            Greetings, this is Isaac's Extremely Unfinished Website that I might add some Jupyter notebooks or JavaScript to in
-            the future.
-
-            https://pages.github.com/
-            Jekyll, CNAME
-            https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages
-        </p>
+        <div class="grid">
+            <div class="toprow">
+                <h1>Hello!</h1>
+                <p>I'm Isaac Thompson, a Computer Science major in Virginia Tech's Class of 2023. This website is under construction, so stay tuned!</p>
+            </div>
+            <div class="row">
+                <a href="https://devpost.com/isaact23" target="_blank">
+                    <div class="col">
+                        <img src="https://devpost-challengepost.netdna-ssl.com/assets/reimagine2/devpost-logo-646bdf6ac6663230947a952f8d354cad.svg"></img>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/isaact23/" target="_blank">
+                    <div class="col">
+                        <!-- <img src="images/linkedin.png"></img> -->
+                    </div>
+                </a>
+                <div class="col">Three</div>
+                <div class="col">Four</div>
+            </div>
+            <div class="row">
+                <div class="col">Five</div>
+                <div class="col">Six</div>
+                <div class="col">Seven</div>
+                <div class="col">Eight</div>
+            </div>
+        </div>
     </body>
 </html>
